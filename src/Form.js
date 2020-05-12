@@ -61,7 +61,7 @@ function Form(props) {
 				</Select>
 				<form className={classes.form}>
 					<FormControl margin="normal" required fullWidth>
-						<InputLabel htmlFor="email">{email}}</InputLabel>
+						<InputLabel htmlFor="email">{email}</InputLabel>
 						<Input id="email" name="email" autoFocus />
 					</FormControl>
 					<FormControl margin="normal" required fullWidth>
